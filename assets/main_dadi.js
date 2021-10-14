@@ -21,24 +21,20 @@
 
 prompt('Premi invio per generare il tiro del giocatore')
 numGiocatore = Math.round(Math.random() * 5) + 1;
+document.getElementById("giocatore").innerHTML = "il tiro del giocatore è pari a " + numGiocatore
 console.log(numGiocatore);
 
 prompt('Adesso premi invio per generare la giocata del computer')
 numComputer = Math.round(Math.random() * 5) + 1;
+document.getElementById("computer").innerHTML = "il tiro del computer è pari a " + numComputer
 console.log(numComputer);
 
-if( numComputer > numGiocatore){
-    console.log("ha vinto il giocatore");
-}else if( numGiocatore > numComputer){
-    console.log("ha vinto il computer");
+if( numGiocatore > numComputer){
+    document.getElementById("numGiocatore").innerHTML = "il giocatore ha vinto con il tiro di " + numGiocatore
+}else if( numComputer > numGiocatore){
+    document.getElementById("numComputer").innerHTML = "il computer ha vinto con il tiro di " + numComputer
 }else if( numComputer == numGiocatore){
-    console.log("avete parecchiato, tirate nuovamente i dadi");
+    document.getElementById("pareggio").innerHTML = "avete pareggiato, ritirate i dadi "
 }
-
-
-
-
-
-
 
 
