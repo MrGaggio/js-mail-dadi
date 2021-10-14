@@ -41,3 +41,9 @@ for (let i = 0; i < authorizedEmail.length; i++) {
 
 
 
+    //SECONDO ESERCIZIO
+
+// Genera un numero random da 1 a 6 sia per il giocatore che per il computer. Stabilire il vincitore in base a chi fa il punteggio + alto
+
+
+
