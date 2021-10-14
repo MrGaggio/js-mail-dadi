@@ -15,7 +15,7 @@
 
 
 // Chiedi all'utente la sua email
-/* 
+
 const email = prompt('Inserisci la tua email');
 
 // Crea una lista di email
@@ -37,40 +37,8 @@ for (let i = 0; i < authorizedEmail.length; i++) {
 console.log(email_trovata) ;
 
 if(email_trovata == true){
-    /* console.log('la tua email è verificata'); */   
-/* }else if(email_trovata == false){ */
-    /* console.log('la tua mail non è verificata'); */
-/* } */ 
-
-//HO COMMENTATO I RISULTATI PER FARE I
-
-
-    //SECONDO ESERCIZIO
-
-// Genera un numero random da 1 a 6 sia per il giocatore che per il computer. Stabilire il vincitore in base a chi fa il punteggio + alto
-
-
-/* STRUMENTI    
-
-- Math.round
-- math.random
-- stabilire il vincitore
-
-
-*/
-
-
-// genera un numero random tra 1 e 6
-
-num = Math.round(Math.random() * 5) + 1;
-
-
-
-
-
-
-// assegnare giocatore e computer
-
-const x = "giocatore"
-const y = "computer"
+ console.log('la tua email è verificata');    
+}else if(email_trovata == false){ 
+console.log('la tua mail non è verificata'); 
+} 
 
