@@ -30,12 +30,11 @@ const authorizedEmail = ["steruggiu@gmail.com", "mario.rossi@tiscali.it", "paper
 
 
 for (let i = 0; i < authorizedEmail.length; i++) {
-    const element = authorizedEmail[i];
-    console.log(element);
-    if (element == authorizedEmail) {
+    const accesso = authorizedEmail[i];
+    if (email == accesso) {
     console.log('puoi continuare a inserire i tuoi dati')
-    }else (element != authorizedEmail)
-    console.log('mi spiace non sei autorizzato')
+    }else if(email != accesso)
+    alert('mi spiace non sei autorizzato')
     
     }
 
@@ -44,6 +43,9 @@ for (let i = 0; i < authorizedEmail.length; i++) {
     //SECONDO ESERCIZIO
 
 // Genera un numero random da 1 a 6 sia per il giocatore che per il computer. Stabilire il vincitore in base a chi fa il punteggio + alto
+
+
+//Genera un numero random
 
 
 
